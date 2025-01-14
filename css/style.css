@@ -96,6 +96,7 @@ body {
 .header-button {
   margin-top: 50px;
   margin-bottom: auto;
+  align-self: center;
 }
 
 .button-primary-path {
@@ -111,7 +112,8 @@ body {
   font-size: 18px;
   line-height: 25px;
   display: inline-block;
-  transform: translate(-55px, -20px);
+  transform: translateY(-20px);
+  margin-left: -57px;
 }
 
 .social-list {
