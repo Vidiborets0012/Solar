@@ -22,6 +22,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  object-fit: cover;
 }
 
 ul {
@@ -36,6 +37,25 @@ body {
   font-size: 14px;
   line-height: 19px;
   color: #303030;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.main-section {
+  margin-bottom: 150px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #868585;
+  margin-bottom: 60px;
+  text-transform: uppercase;
 }
 
 .header {
@@ -99,4 +119,26 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.servise-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-content {
+  flex-basis: 510px;
+  margin-right: 90px;
+}
+
+.service-box {
+  margin-bottom: 50px;
+}
+
+.service-box-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #303030;
+  margin-bottom: 15px;
 }
