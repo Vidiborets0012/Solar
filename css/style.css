@@ -25,7 +25,8 @@ img {
   object-fit: cover;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -287,4 +288,45 @@ body {
 
 .clients-slider-box-item + .clients-slider-box-item {
   margin-top: 16px;
+}
+
+.step-inner {
+  display: flex;
+}
+
+.step-content {
+  margin-right: 90px;
+}
+
+.step-content-list {
+  counter-reset: my-counter;
+}
+
+.step-content-item {
+  counter-increment: my-counter;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.step-content-item::before {
+  position: absolute;
+  content: '0' counter(my-counter);
+  left: 0;
+  top: -30px;
+  color: #868585;
+}
+
+.step-content-item:nth-child(n + 10)::before {
+  content: counter(my-counter);
+}
+
+.step-content-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 2px;
+}
+
+.step-img {
+  flex-basis: 600px;
 }
