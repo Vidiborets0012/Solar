@@ -330,3 +330,67 @@ body {
 .step-img {
   flex-basis: 600px;
 }
+
+.footer {
+  padding: 70px 0 50px;
+  background-image: url('../images/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.footer-top {
+  margin-bottom: 150px;
+  display: flex;
+}
+
+.footer-title {
+  color: #fff;
+}
+
+.footer-form {
+  flex-basis: 510px;
+  margin-right: 91px;
+}
+
+.footer-input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  padding-bottom: 11px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.footer-input::placeholder {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.footer-form-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  color: #fff;
+}
+
+.footer-contacts-item {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
