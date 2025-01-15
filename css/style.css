@@ -463,6 +463,15 @@ body {
     font-size: 32px;
     line-height: 40px;
   }
+
+  .blockquote {
+    padding: 60px 0 80px;
+  }
+
+  .blockquote-text {
+    font-size: 28px;
+    line-height: 32px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -533,6 +542,11 @@ body {
 
   .service-box {
     margin-bottom: 30px;
+  }
+
+  .blockquote-text {
+    font-size: 22px;
+    line-height: 28px;
   }
 }
 
