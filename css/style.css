@@ -206,6 +206,11 @@ body {
   left: 340px;
 }
 
+.slick-left path,
+.slick-right path {
+  transition: all 0.5s;
+}
+
 .slick-left:hover path,
 .slick-right:hover path {
   fill: #a9a32a;
@@ -255,4 +260,31 @@ body {
   font-size: 42px;
   line-height: 57px;
   color: #fff;
+}
+
+.clients-slider-box {
+  display: flex;
+}
+
+.clients-slider-img {
+  flex-basis: 510px;
+  margin-right: 90px;
+  margin-bottom: 30px;
+}
+
+.clients-slider-box-title {
+  max-width: 478px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.clients-slider-box-list {
+  margin-left: 50px;
+  margin-bottom: 65px;
+}
+
+.clients-slider-box-item + .clients-slider-box-item {
+  margin-top: 16px;
 }
