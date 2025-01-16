@@ -443,6 +443,22 @@ body {
   }
 }
 
+@media screen and (max-width: 960px) {
+  .clients-slider-box {
+    display: block;
+  }
+
+  .clients-slider-box-title {
+    max-width: 100%;
+  }
+
+  .clients-slider-img {
+    width: 100%;
+    height: 300px;
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 826px) {
   .info-box {
     display: block;
@@ -528,6 +544,10 @@ body {
     padding: 10px;
     display: block;
     text-align: center;
+  }
+
+  .clients-slider-box-list {
+    margin-left: 0;
   }
 }
 
