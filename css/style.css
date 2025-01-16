@@ -441,6 +441,20 @@ body {
     width: 100%;
     height: 400px;
   }
+
+  .step-inner {
+    flex-wrap: wrap;
+  }
+
+  .step-content {
+    margin-right: 0;
+  }
+
+  .step-img {
+    height: 400px;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 960px) {
